@@ -1,38 +1,960 @@
-{% extends '_layout.swig' %}
-{% import '_macro/post.swig' as post_template %}
-{% import '_macro/sidebar.swig' as sidebar_template %}
+<!doctype html>
 
 
-{% block title %} {{ page.title }} | {{ config.title }} {% endblock %}
 
-{% block page_class %}page-post-detail{% endblock %}
+  
 
 
-{% block content %}
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="读书,哲学,西方哲学,人生意义," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="最近读完了《哲学家们都干了写什么》。书中介绍了哲学家们的观点、生平和八卦，介绍了西方哲学从古希腊到20世纪的演化，最后落在人生的意义是什么的问题上。以故事+讨论的形式介绍了各种流派和思想，语言也很活泼，读着使人感觉有趣。本文做一个读后的笔记记录，以免把这些人和观点忘得太快，何况外国名字我本身就记不住。以后有时间也要阅读和梳理中国哲学发展的历程。  &#x3D; 宗教和哲学 &#x3D;&#x3D;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="西方哲学家和他们的主要观点">
+<meta property="og:url" content="http://shawshannon24.github.io/2022/06/11/%E8%A5%BF%E6%96%B9%E5%93%B2%E5%AD%A6%E5%AE%B6%E5%92%8C%E4%BB%96%E4%BB%AC%E7%9A%84%E4%B8%BB%E8%A6%81%E8%A7%82%E7%82%B9/index.html">
+<meta property="og:site_name" content="学号24">
+<meta property="og:description" content="最近读完了《哲学家们都干了写什么》。书中介绍了哲学家们的观点、生平和八卦，介绍了西方哲学从古希腊到20世纪的演化，最后落在人生的意义是什么的问题上。以故事+讨论的形式介绍了各种流派和思想，语言也很活泼，读着使人感觉有趣。本文做一个读后的笔记记录，以免把这些人和观点忘得太快，何况外国名字我本身就记不住。以后有时间也要阅读和梳理中国哲学发展的历程。  &#x3D; 宗教和哲学 &#x3D;&#x3D;">
+<meta property="og:locale">
+<meta property="article:published_time" content="2022-06-11T11:08:57.000Z">
+<meta property="article:modified_time" content="2022-06-13T15:57:19.033Z">
+<meta property="article:author" content="西尹">
+<meta property="article:tag" content="读书">
+<meta property="article:tag" content="哲学">
+<meta property="article:tag" content="西方哲学">
+<meta property="article:tag" content="人生意义">
+<meta name="twitter:card" content="summary">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"hide","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '6394728721395222000',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://shawshannon24.github.io/2022/06/11/西方哲学家和他们的主要观点/"/>
+
+
+
+
+
+  <title> 西方哲学家和他们的主要观点 | 学号24 </title>
+<meta name="generator" content="Hexo 6.2.0"></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?41fc030db57d5570dd22f78997dc4a7e";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">学号24</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">24号来回答下</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocapitalize="off" autocomplete="off" autocorrect="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
 
   <div id="posts" class="posts-expand">
-    {{ post_template.render(page) }}
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://shawshannon24.github.io/2022/06/11/%E8%A5%BF%E6%96%B9%E5%93%B2%E5%AD%A6%E5%AE%B6%E5%92%8C%E4%BB%96%E4%BB%AC%E7%9A%84%E4%B8%BB%E8%A6%81%E8%A7%82%E7%82%B9/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="学号24">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                西方哲学家和他们的主要观点
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-06-11T19:08:57+08:00">
+                2022-06-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index">
+                    <span itemprop="name">读书笔记</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2022/06/11/%E8%A5%BF%E6%96%B9%E5%93%B2%E5%AD%A6%E5%AE%B6%E5%92%8C%E4%BB%96%E4%BB%AC%E7%9A%84%E4%B8%BB%E8%A6%81%E8%A7%82%E7%82%B9/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2022/06/11/西方哲学家和他们的主要观点/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <pre><code>最近读完了《哲学家们都干了写什么》。书中介绍了哲学家们的观点、生平和八卦，介绍了西方哲学从古希腊到20世纪的演化，最后落在人生的意义是什么的问题上。以故事+讨论的形式介绍了各种流派和思想，语言也很活泼，读着使人感觉有趣。本文做一个读后的笔记记录，以免把这些人和观点忘得太快，何况外国名字我本身就记不住。以后有时间也要阅读和梳理中国哲学发展的历程。
+</code></pre>
+<p>&#x3D; 宗教和哲学</p>
+<p>&#x3D;&#x3D; 苏格拉底</p>
+<ul>
+<li>古希腊人，打过仗还很猛，喜欢提问题，因为问题太多大家又回答不了，招人烦，被陪审团判死刑</li>
+<li>哲学对宗教信仰产生了破坏，但在当时学哲学是长面子的事情</li>
+</ul>
+<p>&#x3D;&#x3D; 柏拉图</p>
+<ul>
+<li>苏格拉底的学生，名字意识是强壮。马其顿打下雅典，亚历山大建立罗马帝国</li>
+</ul>
+<p>&#x3D;&#x3D; 亚里士多德</p>
+<ul>
+<li>柏拉图的学生，亚历山大大帝的老师</li>
+</ul>
+<p>&#x3D;&#x3D; 保罗</p>
+<ul>
+<li>保罗和耶稣同时代。早起是犹太教徒，后面转为基督教。他向犹太人以外的人传播基督教</li>
+<li>罗马帝国宗教可以互相杂处，犹太人建立犹太教，基督教从犹太教中发展出来。前者信旧约，后者看新约，旧约记录耶稣出生之前，新约记录之后。基督教是一神教，不让信仰别的神</li>
+<li>教父哲学：保罗将哲学的思辨思维应用到基督教传播中，使得基督教获得了很大的传播。他撰写了大量神学文章&#x3D;》保罗书信，被记录在新约中，此时哲学是传教的工具，发挥不出哲学质疑的能力</li>
+</ul>
+<p>后来罗马帝国迫害基督教。但是在之后的权利战争中，皇帝的关键一战获得基督启示，又开始信仰基督教，但是哲学家属于异教徒，被迫害，同时也焚毁了大量哲学书籍。哲学家躲在罗马和东边波斯的边境，希腊著作从拉丁文翻译成叙利亚文。</p>
+<p>&#x3D;&#x3D; 希帕蒂亚</p>
+<ul>
+<li>哲学家，数学家，几何原本。在上述时代被迫害致死</li>
+</ul>
+<p>阿拉伯帝国取代波斯，对宗教和文化都是宽容的。阿拉伯百年翻译运动，希腊著作从拉丁文到叙利亚文，到阿拉伯文。后面传到西班牙，从阿拉伯文再到西班牙文。后续在看拉丁文内容，就是从西班牙文翻译到拉丁文的。</p>
+<p>13世纪，罗马教廷又开始发挥哲学价值去打击神学异端，开始了《经院哲学》。<br>&#x3D;&#x3D; 托马斯.阿奎那</p>
+<ul>
+<li>经院哲学集大成者。</li>
+<li>靠逻辑推理证明上帝存在：世上万物都需要有因，最初的因就是上帝。上帝是全知全能全善的</li>
+<li>罗素对上面的反驳：上帝是否要遵循深恶标准呢？如果遵循，上帝要去符合一定规则那他就不全能；如果不遵循，上帝就无所谓善恶就不是全善的</li>
+</ul>
+<p>中世纪的欧洲，教会有着绝对的统治地位，政治上，文化上，军事上等。</p>
+<p>&#x3D;&#x3D; 马丁.路德</p>
+<ul>
+<li>神学博士。喜欢思考，产生对教皇权威的怀疑。</li>
+<li>认为内心信仰更重要：罗马教会主张外在行为很重要，你只有表现的各项符合教会要求，才能被认为是信仰上帝。马丁路德发现保罗书信“因信称义”，即内心信仰比外在表现更重要，形式不重要。</li>
+<li>有了印刷术后，为马丁路德提供了工具。同时他将教徒和教皇的矛盾，转化为日耳曼民族和罗马民族的矛盾（他是日耳曼人）。再者，当时欧洲的经济结构在发生变化，手工业和商业的发展使得城市居民增多，不再像农业更多看天吃饭，对宗教的信仰基础也变薄弱了，为他提供的群众基础。路德用德语写作也使得他的思想传播更广泛，对比其他用拉丁文写作。</li>
+<li>基督教开始分裂。路德一派划分为新教，罗马一派为天主教，之前东罗马帝国搞了一个东正教。</li>
+</ul>
+<p>&#x3D;&#x3D; 加尔文</p>
+<ul>
+<li>将新教传播到了欧洲其他国家。当上了新教的教皇。</li>
+<li>26岁写了《基督教原理》。但是新教也打压自由怀疑的思想。</li>
+</ul>
+<p>&#x3D; 哲学从宗教中走出</p>
+<p>人要思考，这是任何其他动植物的最大区别，思考才能知道是什么，怎么做，为什么，才能找到人生的意义。思考则会产生怀疑。</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/%E8%AF%BB%E4%B9%A6/" rel="tag"># 读书</a>
+          
+            <a href="/tags/%E5%93%B2%E5%AD%A6/" rel="tag"># 哲学</a>
+          
+            <a href="/tags/%E8%A5%BF%E6%96%B9%E5%93%B2%E5%AD%A6/" rel="tag"># 西方哲学</a>
+          
+            <a href="/tags/%E4%BA%BA%E7%94%9F%E6%84%8F%E4%B9%89/" rel="tag"># 人生意义</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2022/06/05/202205/" rel="next" title="202205">
+                <i class="fa fa-chevron-left"></i> 202205
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
 
     <div class="post-spread">
-      {% if theme.jiathis %}
-        {% include '_partials/share/jiathis.swig' %}
-      {% elseif theme.baidushare %}
-        {% include '_partials/share/baidushare.swig' %}
-      {% elseif theme.add_this_id %}
-        {% include '_partials/share/add-this.swig' %}
-      {% elseif theme.duoshuo_shortname and theme.duoshuo_share %}
-        {% include '_partials/share/duoshuo_share.swig' %}
-      {% endif %}
+      
     </div>
   </div>
 
-{% endblock %}
-
-{% block sidebar %}
-  {{ sidebar_template.render(true) }}
-{% endblock %}
+          
+          </div>
+          
 
 
-{% block script_extra %}
-  {% include '_scripts/pages/post-details.swig' %}
-{% endblock %}
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2022/06/11/西方哲学家和他们的主要观点/"
+           data-title="西方哲学家和他们的主要观点" data-url="http://shawshannon24.github.io/2022/06/11/%E8%A5%BF%E6%96%B9%E5%93%B2%E5%AD%A6%E5%AE%B6%E5%92%8C%E4%BB%96%E4%BB%AC%E7%9A%84%E4%B8%BB%E8%A6%81%E8%A7%82%E7%82%B9/">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.jpg"
+               alt="" />
+          <p class="site-author-name" itemprop="name"></p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">30</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">13</span>
+                <span class="site-state-item-name">分类</span>
+              
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">31</span>
+                <span class="site-state-item-name">标签</span>
+              
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2017 - 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-circle"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">西尹</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" target="_blank" rel="noopener" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" target="_blank" rel="noopener" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+    
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"shawshannon24"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+      
+      <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
+      <script src="/js/src/hook-duoshuo.js?v=5.1.0"></script>
+    
+    
+    <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
+    <script src="/js/src/hook-duoshuo.js"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+      search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.popup').toggle();
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+      $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = $( "entry", xmlResponse ).map(function() {
+            return {
+              title: $( "title", this ).text(),
+              content: $("content",this).text(),
+              url: $( "url" , this).text()
+            };
+          }).get();
+          var $input = document.getElementById(search_id);
+          var $resultContent = document.getElementById(content_id);
+          $input.addEventListener('input', function(){
+            var matchcounts = 0;
+            var str='<ul class=\"search-result-list\">';
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            $resultContent.innerHTML = "";
+            if (this.value.trim().length > 1) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var content_index = [];
+                var data_title = data.title.trim().toLowerCase();
+                var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                var data_url = decodeURIComponent(data.url);
+                var index_title = -1;
+                var index_content = -1;
+                var first_occur = -1;
+                // only match artiles with not empty titles and contents
+                if(data_title != '') {
+                  keywords.forEach(function(keyword, i) {
+                    index_title = data_title.indexOf(keyword);
+                    index_content = data_content.indexOf(keyword);
+                    if( index_title >= 0 || index_content >= 0 ){
+                      isMatch = true;
+                      if (i == 0) {
+                        first_occur = index_content;
+                      }
+                    }
+
+                  });
+                }
+                // show search results
+                if (isMatch) {
+                  matchcounts += 1;
+                  str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                  var content = data.content.trim().replace(/<[^>]+>/g,"");
+                  if (first_occur >= 0) {
+                    // cut out 100 characters
+                    var start = first_occur - 20;
+                    var end = first_occur + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if(start == 0){
+                      end = 50;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    var match_content = content.substring(start, end);
+                    // highlight all keywords
+                    keywords.forEach(function(keyword){
+                      var regS = new RegExp(keyword, "gi");
+                      match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                    });
+
+                    str += "<p class=\"search-result\">" + match_content +"...</p>"
+                  }
+                  str += "</li>";
+                }
+              })};
+            str += "</ul>";
+            if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+            if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+            $resultContent.innerHTML = str;
+          });
+          proceedsearch();
+        }
+      });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+
+  
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+  
+
+  
+
+  
+
+
+  
+
+</body>
+</html>
